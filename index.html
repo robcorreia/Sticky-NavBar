@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Responsive Sticky Navbar</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type="text/javascript">
+            $(window).on('scroll', function() {
+               if($(window).scrollTop()) {
+                   $('nav').addClass('black');
+               }
+                else {
+                   $('nav').removeClass('black');
+               }          
+                         
+            })
+            
+        </script>
+        
+    </head>
+    <body>
+        
+        <div class="wrapper">
+            <nav>
+                <div class="logo">LOGO</div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a class="active" href="#">Log In</a></li>
+                </ul>
+            </nav>
+            <section class="sec1"></section>
+            <section class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ornare diam sit amet congue sagittis. Nam eu justo eget sem ultrices accumsan in et elit. Curabitur lectus ex, porta ac tortor vel, tempor hendrerit urna. Suspendisse dapibus neque eget urna egestas, nec porttitor enim eleifend. Sed viverra accumsan dolor eu gravida. Integer sodales vel arcu efficitur dignissim. Maecenas erat turpis, malesuada et mattis nec, tincidunt ac quam. Curabitur interdum luctus massa, at cursus nulla volutpat nec. In hac habitasse platea dictumst. Etiam ut leo at purus interdum tincidunt eu ac turpis. Fusce sed diam risus. Quisque consequat finibus lorem sit amet scelerisque. Aliquam nec finibus purus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ornare diam sit amet congue sagittis. Nam eu justo eget sem ultrices accumsan in et elit. Curabitur lectus ex, porta ac tortor vel, tempor hendrerit urna. Suspendisse dapibus neque eget urna egestas, nec porttitor enim eleifend. Sed viverra accumsan dolor eu gravida. Integer sodales vel arcu efficitur dignissim. Maecenas erat turpis, malesuada et mattis nec, tincidunt ac quam. Curabitur interdum luctus massa, at cursus nulla volutpat nec. In hac habitasse platea dictumst. Etiam ut leo at purus interdum tincidunt eu ac turpis. Fusce sed diam risus. Quisque consequat finibus lorem sit amet scelerisque. Aliquam nec finibus purus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ornare diam sit amet congue sagittis. Nam eu justo eget sem ultrices accumsan in et elit. Curabitur lectus ex, porta ac tortor vel, tempor hendrerit urna. Suspendisse dapibus neque eget urna egestas, nec porttitor enim eleifend. Sed viverra accumsan dolor eu gravida. Integer sodales vel arcu efficitur dignissim. Maecenas erat turpis, malesuada et mattis nec, tincidunt ac quam. Curabitur interdum luctus massa, at cursus nulla volutpat nec. In hac habitasse platea dictumst. Etiam ut leo at purus interdum tincidunt eu ac turpis. Fusce sed diam risus. Quisque consequat finibus lorem sit amet scelerisque. Aliquam nec finibus purus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            </section>
+        
+        
+        </div>
+        
+        
+    </body>
+</html>

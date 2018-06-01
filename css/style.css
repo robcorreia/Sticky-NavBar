@@ -6,6 +6,13 @@ body {
     font-family: 'Josefin Sans'
 }
 
+.logo img{
+    display: block;
+    width: 250px;
+    height: auto;
+
+}
+
 nav {
     position: fixed;
     top: 0;
@@ -17,8 +24,8 @@ nav {
     transition: .3s;
 }
 
-nav.black{
-    background: rgba(0,0,0,0.8);
+nav.green{
+    background: rgba(34,139,34,0.8);
     height: 100px;
     padding: 10px 100px;
 }
@@ -31,8 +38,8 @@ nav .logo{
     transition: .3s;
 }
 
-nav .black .logo {
-    color: #fff;
+nav .green .logo {
+    
 }
 
 nav ul{
@@ -51,7 +58,7 @@ nav ul li {
 
 nav ul li a {
     line-height: 80px;
-    color: #151515;
+    color: white;
     padding: 12px 30px;
     text-decoration: none;
     text-transform: uppercase;
@@ -67,6 +74,11 @@ nav ul li a:focus {
     outline: none;
 }
 
+h2{
+    padding: 10px 0 0 150px;
+    color: #228B22;
+}
+
 nav ul li a.active {
     background: #E2472F;
     color: #fff;
@@ -76,7 +88,7 @@ nav ul li a.active {
 section.sec1 {
     width: 100%;
     height: 100vh;
-    background: url(../img//bk-01.jpg);
+    background: url(../img//bk-1.jpg);
     background-size: cover;
     background-position: center;
     
@@ -95,8 +107,22 @@ section.sec1 {
     
 }
 
+.footer{
+    padding-top: 50px;
+    position:absolute;
+    color: white;
+    text-align: center;
+    width:100%;
+    height:150px;
+    background: rgba(50,205,50,0.9);
+    font-size: 20px;
+}
 
-
+@media (max-width: 375px{
+    nav[class="container"]{
+        width: 50% !important;
+    }
+}
 
 
 
